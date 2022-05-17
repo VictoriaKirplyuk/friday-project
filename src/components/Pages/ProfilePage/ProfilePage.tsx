@@ -1,6 +1,8 @@
+import s from './ProfilePage.module.css'
+
 export const ProfilePage = () => {
     return (
-        <div>
+        <div className={s.container}>
             PROFILE PAGE
         </div>
     )

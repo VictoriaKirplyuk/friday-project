@@ -1,0 +1,26 @@
+.header {
+    display: flex;
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    justify-content: center;
+}
+
+.links {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.linkItem {
+    text-decoration: none;
+    font-weight: bold;
+    color: #808080;
+}
+
+.linkItem:hover {
+    color: #A9A9A9;
+}
